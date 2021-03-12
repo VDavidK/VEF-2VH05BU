@@ -1,0 +1,60 @@
+body{
+    color: silver;
+}
+
+.auglysingarammi{
+    width: 30%;
+    height: 40%;
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+.auglysing{
+    color: red;
+    text-align: center;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.takki, a{
+    padding: 50px;
+    text-align: center;
+    animation: flash 0.5s;
+    text-decoration: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.takki{
+    padding: 50px;
+    text-align: center;
+    animation: flash 0.5s;
+    text-decoration: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.minitext{
+    color: red;
+    padding: 50px;
+    text-align: center;
+    animation: fade 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flash{
+    from{color:red;}
+    to{color: green;}
+}
+
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(720deg);}
+}
+
+@keyframes fade{
+    from{opacity: 100;}
+    to{opacity: 0;}
+}
